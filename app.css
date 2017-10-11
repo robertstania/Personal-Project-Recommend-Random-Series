@@ -1,0 +1,52 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+  background-image: url("images/image3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height:100%;
+  min-height: 100vh;
+}
+
+.box {
+  width: 40vh;
+  display: inline-block;
+  border: 1px solid black;
+  border-radius: 10px;
+  vertical-align: top;
+  background-color: white;
+  padding: 10px;
+}
+
+.synop{
+  text-align: left;
+}
+
+.size{
+  max-width: 95%;
+  max-height: 95%;
+}
+.optional_id{
+  background-color: aqua;
+  text-align: center;
+  border-radius: 2px;
+  box-shadow: 2px 2px 1px #444;
+  width: 200px;
+  margin: 0px auto;
+  padding: 5px;
+
+}
+
+.optional_id  p{
+  text-align:left;
+}
+
+.optional_id  input{
+  margin-top: 5px;
+  width: 20px;
+}
