@@ -19,7 +19,7 @@ body {
   border: 1px solid black;
   border-radius: 10px;
   vertical-align: top;
-  background-color: white;
+  background-color: aqua;
   padding: 10px;
 }
 
@@ -34,11 +34,11 @@ body {
 .optional_id{
   background-color: aqua;
   text-align: center;
-  border-radius: 2px;
+  border-radius: 10px;
   box-shadow: 2px 2px 1px #444;
   width: 200px;
   margin: 0px auto;
-  padding: 5px;
+  padding: 10px;
 
 }
 
@@ -48,5 +48,18 @@ body {
 
 .optional_id  input{
   margin-top: 5px;
-  width: 20px;
+  width: 55px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.taco{
+  margin-top: 5px;
+  width: 100px;
+  text-align: center;
+  background-color: aqua;
+  border-radius: 10px;
+  box-shadow: 2px 2px 1px #444;
+  margin: 0px auto;
+  padding: 10px;
 }
