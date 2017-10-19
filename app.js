@@ -1,6 +1,6 @@
 $(document).ready(function() {
   //Refactored solution includes functionality to enter an id and retrieve an Anime image with a specific id(number)
-  $('.taco').on('click', function() {
+  $('.button').on('click', function() {
     var specificNum = $("#custom_id").val();
     if (!specificNum) {
       specificNum = randomNumber();
